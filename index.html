@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="greet">Month of Love :)</div>
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Vebs,</strong><br><br>
+                        <p>
+                            Happy Valentine's Day!  Just wanted to say how awesome you are. Thanks for being there through thick and thin. I'm lucky to have you as my friend. Here's to more fun times ahead. Love ya!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
+
+
+<!--Comment-->
